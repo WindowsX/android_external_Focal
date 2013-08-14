@@ -7,7 +7,7 @@ LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/public/include \
 	$(LOCAL_PATH)/XMPFilesPlugins/api/source
 
-LOCAL_CFLAGS := -O3 -DNDEBUG -fstrict-aliasing -fexceptions -frtti \
+LOCAL_CFLAGS := -O3 -DNDEBUG -fno-strict-aliasing -fexceptions -frtti \
 	-DUNIX_ENV -DHAVE_MEMMOVE -DkBigEndianHost=0 -DEnableDynamicMediaHandlers=0 \
 	-DEnableMiscHandlers=0 -DEnablePluginManager=0 -Wno-address
 
