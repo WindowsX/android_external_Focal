@@ -93,7 +93,8 @@ LOCAL_CFLAGS := \
 	-DPCRE_STATIC \
 	-DG_DISABLE_DEPRECATED \
 	-DGLIB_COMPILATION \
-	-Wno-format-security
+	-Wno-format-security \
+	-fno-strict-aliasing
 
 LOCAL_NDK_STL_VARIANT := gnustl_static
 
